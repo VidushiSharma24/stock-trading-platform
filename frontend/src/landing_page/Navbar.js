@@ -30,9 +30,9 @@ function Navbar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav mb-lg-0">
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/signup">
+                <a class="nav-link active" aria-current="page" href="stock-trading-platform-uknz-7lsy0f6bv-vidushi3.vercel.app" target="_blank" rel="noreferrer">
                   Signup
-                </Link>
+                </a>
               </li>
               <li class="nav-item">
                 <Link class="nav-link active" to="/about">
