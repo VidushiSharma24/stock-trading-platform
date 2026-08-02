@@ -19,7 +19,7 @@ A full-stack stock trading dashboard inspired by Zerodha's Kite platform. Built 
 **Database:** MongoDB with Mongoose ODM
 
 ## Project Structure
-
+```
 stock-trading-platform/
 ├── backend/ # Express REST API + MongoDB models & schemas
 │ ├── model/
@@ -31,7 +31,7 @@ stock-trading-platform/
 └── dashboard/ # Trading dashboard (React)
 └── src/
 └── Components/
-
+```
 
 ## API Endpoints
 
@@ -50,25 +50,27 @@ stock-trading-platform/
 ### Installation
 
 1. Clone the repository
-
+```bash
 git clone https://github.com/VidushiSharma24/stock-trading-platform.git
 cd stock-trading-platform
-
+```
 
 2. Install dependencies in each folder
 
+```bash
 cd backend && npm install
 cd ../frontend && npm install
 cd ../dashboard && npm install
-
+```
 
 3. Set up environment variables in `backend/.env`
-
+```
 PORT=3002
 MONGO_URL=your_mongodb_connection_string
-
+```
 
 4. Run each part in a separate terminal
+```
 Terminal 1 - Backend
 
 cd backend
@@ -83,7 +85,7 @@ Terminal 3 - Dashboard
 
 cd dashboard
 npm start
-
+```
 
 5. Open the app
    - Frontend: `http://localhost:3000`
