@@ -14,12 +14,15 @@ function Hero() {
           Online platform to invest in stocks, derivatives, mutual funds, and
           more
         </p>
-        <button
+        
+          href="https://stock-trading-platform-mu.vercel.app"
+          target="_blank"
+          rel="noreferrer"
           className="p-2 btn btn-primary fs-5 mb-5"
           style={{ width: "20%", margin: "0 auto" }}
         >
           Signup Now
-        </button>
+        </a>
       </div>
     </div>
   );
